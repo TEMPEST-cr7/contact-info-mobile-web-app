@@ -24,7 +24,7 @@ table th{
 	
 	/*Hide table header. */
 	table thead{
-		display: none;
+		display: none
 	}
 	
 	table tr{
