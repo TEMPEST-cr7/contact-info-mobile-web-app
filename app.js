@@ -18,7 +18,7 @@ function initialize(){
 	document.body.addEventListener(
 		"online",
 		function(){
-			document.getElementById("status".innerHTML="Online";
+			document.getElementById("status").innerHTML="Online";
 		},
 		false
 		);
