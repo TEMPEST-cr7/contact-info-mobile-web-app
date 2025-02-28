@@ -1,14 +1,14 @@
 function initialize(){
-	var status="*Offline*";
+	var status="* Offline *";
 	if(navigator,onLine){
-		status = "*Online*";
+		status = "* Online *";
 		retrieveContacts();
 	}else{
 		const localStorage = window.localStorage;
 		if(localStorage){
 			const contacts = localStorage.getItem("contacts");
 			if(contacts){
-				displayContacts(Json.parse(contacts))'
+				displayContacts(JSON.parse(contacts));
 			}
 		}
 	}
