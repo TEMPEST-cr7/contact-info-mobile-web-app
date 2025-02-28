@@ -59,7 +59,7 @@ function addRow(contact){
 	var row = tcontent.insertRow();
 	
 	var nameCell = row.insertCell();
-	nameCell.setAttribute('data-albel', "Name");
+	nameCell.setAttribute('data-label', "Name");
 	nameCell.innerHTML = contact.name;
 	
 	var addressCell = row.insertCell();
