@@ -10,7 +10,7 @@ table captoin{
 table td,
 table th{
 	border: 1px solid #000000;
-	text-align;center;
+	text-align: center;
 }
 
 table th{
@@ -47,7 +47,7 @@ table th{
 	
 	table td:last-child{
 		border-bottom: 0;
-		border 1px solid #000000;
+		border: 1px solid #000000;
 	}
 	
 	tr:nth-child(even){
