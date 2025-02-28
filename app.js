@@ -51,7 +51,7 @@ function retrieveContacts(){
 }
 
 function displayContacts(contacts){
-	contact.forEach(addRow);
+	contacts.forEach(addRow);
 }
 
 function addRow(contact){
